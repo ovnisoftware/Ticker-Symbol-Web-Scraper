@@ -1,0 +1,18 @@
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\bin\Debug\Ticker Scraper.exe.config
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\bin\Debug\Ticker Scraper.exe
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\bin\Debug\Ticker Scraper.pdb
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.csprojResolveAssemblyReference.cache
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker_Scraper.Form1.resources
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker_Scraper.Properties.Resources.resources
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.csproj.GenerateResource.Cache
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.exe
+c:\users\tester\documents\visual studio 2013\Projects\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.pdb
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\bin\Debug\Ticker Scraper.exe.config
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.exe
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.pdb
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\bin\Debug\Ticker Scraper.exe
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\bin\Debug\Ticker Scraper.pdb
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker_Scraper.Form1.resources
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker_Scraper.Properties.Resources.resources
+C:\Users\tester\Documents\GitHub\Ticker Scraper\Ticker Scraper\obj\Debug\Ticker Scraper.csproj.GenerateResource.Cache
