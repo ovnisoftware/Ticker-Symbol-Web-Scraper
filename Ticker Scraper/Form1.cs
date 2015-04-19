@@ -15,16 +15,17 @@ namespace Ticker_Scraper
 {
     public partial class Form1 : Form
     {
+        string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
         public Form1()
         {
             InitializeComponent();
-            txtPath.Text = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            txtPath.Text = folder;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //Set path for Dow30.txt file
-            string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string path = folder + @"\Dow30.txt";
 
             //Access barchart.com to get Dow 30 components
@@ -51,23 +52,13 @@ namespace Ticker_Scraper
             using (StreamWriter writer = new StreamWriter(path))
             {
                 writer.Write(webPageInfo);
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            DialogResult result = folderBrowserDialog1.ShowDialog();
-            if (result == DialogResult.OK)
-            {
-                txtPath.Text = folderBrowserDialog1.SelectedPath;
-                //folder = folderBrowserDialog1.SelectedPath;
+                MessageBox.Show(path + " download complete");
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             //Set path for SP100.txt file
-            string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string path = folder + @"\SP100.txt";
 
             //Access barchart.com to get Dow 30 components
@@ -92,13 +83,13 @@ namespace Ticker_Scraper
             using (StreamWriter writer = new StreamWriter(path))
             {
                 writer.Write(webPageInfo);
+                MessageBox.Show(path + " download complete");
             }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             //Set path for NASDAQ100.txt file
-            string folder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             string path = folder + @"\NASDAQ100.txt";
 
             //Access barchart.com to get Dow 30 components
@@ -123,6 +114,17 @@ namespace Ticker_Scraper
             using (StreamWriter writer = new StreamWriter(path))
             {
                 writer.Write(webPageInfo);
+                MessageBox.Show(path + " download complete");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DialogResult result = folderBrowserDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                txtPath.Text = folderBrowserDialog1.SelectedPath;
+                folder = folderBrowserDialog1.SelectedPath;
             }
         }
     }
