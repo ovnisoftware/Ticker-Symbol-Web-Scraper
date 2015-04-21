@@ -79,6 +79,8 @@ namespace Ticker_Scraper
             index = webPageInfo.IndexOf("\"");
             webPageInfo = webPageInfo.Substring(0, index);
 
+            webPageInfo = webPageInfo.Replace(",", ", ");
+
             //Write string to text file
             using (StreamWriter writer = new StreamWriter(path))
             {
@@ -109,6 +111,8 @@ namespace Ticker_Scraper
 
             index = webPageInfo.IndexOf("\"");
             webPageInfo = webPageInfo.Substring(0, index);
+
+            webPageInfo = webPageInfo.Replace(",", ", ");
 
             //Write string to text file
             using (StreamWriter writer = new StreamWriter(path))
